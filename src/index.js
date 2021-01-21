@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+        <div className='text'>
+          S.I.A.Y
+        </div>
+        
+        <iframe className='bot' title='siay-bot' src='https://webchat.botframework.com/embed/siay-bot?s=IhKOHTVv8ec.KDvBb80Z4wn0oa3W-ICNIsXTv4_GpQGf-ibNYP5jpS0'></iframe>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
